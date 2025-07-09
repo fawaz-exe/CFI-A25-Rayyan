@@ -7,7 +7,7 @@
  *  7    8   9
  */
 
-import matrixInput from "./02-input-matrix.js";
+import matrixInput from "./02-Input-matrix.js";
 
 function printMatrix(m, nameOfMatrix){
     // m = matrixInput();
