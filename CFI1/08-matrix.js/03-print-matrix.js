@@ -1,5 +1,3 @@
-
-
 import matrixInput from "./02-input-matrix.js";
 
 function printMatrix(m, nameOfMatrix){

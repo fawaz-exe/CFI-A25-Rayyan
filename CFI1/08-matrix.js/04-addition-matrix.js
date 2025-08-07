@@ -1,6 +1,3 @@
-// 1   2        3   4
-// 3   4        5   6
-
 import matrixInput from "./02-input-matrix.js";
 import printMatrix from "./03-print-matrix.js";
 
