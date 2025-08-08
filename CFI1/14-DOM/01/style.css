@@ -1,0 +1,8 @@
+#Mytable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tr,td,th{
+    border: 2px solid black;
+}
