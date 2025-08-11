@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo</h1>
+    <div>
+        <input type="text" placeholder="add your task here">
+        <button onclick="createtodo()">Add todo</button>
+    </div>
+    
+</body>
+<script>
+    function createtodo(){
+        const inputElement = document.querySelector('input');
+        const value = inputElement.value;
+        console.log(value);
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.innerText = 'delete task';
+        deleteBtn.style.marginLeft = '5px'
+
+        const h4 = document.createElement('div');
+        h4.innerHTML = value;
+        h4.append(deleteBtn)
+
+        const taskDiv = document.createElement('div')
+        taskDiv.classList = 'Todo'
+        taskDiv.appendChild(h4);
+
+           document.body.appendChild(taskDiv);
+
+    }
+</script>
+</html>
