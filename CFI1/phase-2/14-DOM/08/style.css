@@ -1,0 +1,25 @@
+.cell-row{
+    display: flex;
+}
+
+.cell{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell:focus{
+    border: 2px solid dodgerblue;
+}
+
+.cell.header{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.cell.header.active{
+    background: dodgerblue;
+    color: white;
+}
