@@ -1,0 +1,19 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "descriptions": "",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "config": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}

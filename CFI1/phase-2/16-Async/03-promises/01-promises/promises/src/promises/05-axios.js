@@ -1,7 +1,7 @@
 import axios from 'axios';
 import readlineSync from 'readline-sync';
 
-const key = "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"
+const key = "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"
 
 function hitAPI(username){
     return axios.get(`https://api.github.com/users/${username}`,{
