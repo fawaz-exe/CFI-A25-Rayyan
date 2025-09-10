@@ -6,7 +6,7 @@ import axios from 'axios';
 const githubUsers = ['fawaz-exe', 'alishashaikh-create','nooreinfatima', 'umamadinaz', 'amtulnoor-15','syed-effath', 'syedsuleiman11', 'Anashussain17', 'mohishaik1'];
 
 const url = 'https://api.github.com/users';
-const key = "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" // do not copy this key
+const key = "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" // do not copy this key
 
 
 function hitAPI(username){
