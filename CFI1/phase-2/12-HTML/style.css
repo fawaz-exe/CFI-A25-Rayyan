@@ -1,0 +1,12 @@
+#Mytable{
+    display: flex;
+    justify-content: first baseline;
+    justify-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+tr,td,th{
+    border: solid black 2px;
+    background-color: blanchedalmond;
+}

@@ -1,4 +1,4 @@
-const Person = require('./02-class.js'); // es5 syntax to import
+const Person = Require('./02-class.js'); // es5 syntax to import
 
 class Instructor extends Person {
     constructor(name, age, email, password, exp){

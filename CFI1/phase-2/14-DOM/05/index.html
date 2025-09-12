@@ -8,32 +8,33 @@
 <body>
     <h1>Todo</h1>
     <div>
-        <input type="text" placeholder="add your task here">
-        <button onclick="createtodo()">Add todo</button>
+        <input type="text" placeholder="Add your Task here">
+        <button onclick="createTodo()">Add Todo</button>
     </div>
-    
 </body>
 <script>
-    function createtodo(){
+    function createTodo(){
         const inputElement = document.querySelector('input');
         const value = inputElement.value;
         console.log(value);
 
         const deleteBtn = document.createElement('button');
-        deleteBtn.innerText = 'delete task';
-        deleteBtn.style.marginLeft = '5px'
+        deleteBtn.innerText = 'Delete Task';
+        deleteBtn.style.marginLeft = '5px';
 
-        const h4 = document.createElement('div');
+        const h4 = document.createElement('h4');
         h4.innerHTML = value;
-        h4.append(deleteBtn)
+        h4.append(deleteBtn);
 
-        const taskDiv = document.createElement('div')
-        taskDiv.classList = 'Todo'
+        const taskDiv = document.createElement('div');
+        taskDiv.classList = 'todo';
         taskDiv.appendChild(h4);
 
-           document.body.appendChild(taskDiv);
+        document.body.appendChild(taskDiv);
 
-           deleteBtn.addEventListener
+        deleteBtn.addEventListener('click', ()=>{
+            taskDiv.remove();
+        })
 
     }
 </script>
