@@ -1,0 +1,14 @@
+[
+  { "email": "fawaz@gmail.com", "name": "Syed Fawaz Ali", "firstVisit": "Yes" },
+  { "email": "fawaz@code.com", "name": "Ali", "firstVisit": "NO" },
+  {
+    "email": "fawaz@thehackinschool.com",
+    "name": "Fawaz",
+    "firstVisit": "Yes"
+  },
+  { "email": "alisha@google.com", "name": "Alisha" },
+  { "email": "fawaz@g.com", "name": "FAwaz", "firstVisit": "Yes" },
+  { "name": "Alisha", "email": "alisha@gmail.com" },
+  { "name": "Alisha", "email": "alishas@gmail.com", "gender": "female" },
+  { "name": "Alisha", "emal": "alishas@gmail.com", "gender": "female" }
+]
