@@ -1,0 +1,71 @@
+/* Container styling */
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 26px;
+}
+
+/* Form group layout */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Input field styling */
+input[type="email"],
+input[type="text"],
+input[type="name"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Focus state */
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 3px #007bff88;
+}
+
+/* Submit button (custom version of btn btn-dark) */
+.btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark button styling */
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+}

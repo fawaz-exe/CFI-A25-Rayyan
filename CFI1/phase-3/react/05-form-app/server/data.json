@@ -6,9 +6,9 @@
     "name": "Fawaz",
     "firstVisit": "Yes"
   },
-  { "email": "alisha@google.com", "name": "Alisha" },
+  { "email": "Rayyan@google.com", "name": "Rayyan" },
   { "email": "fawaz@g.com", "name": "FAwaz", "firstVisit": "Yes" },
-  { "name": "Alisha", "email": "alisha@gmail.com" },
-  { "name": "Alisha", "email": "alishas@gmail.com", "gender": "female" },
-  { "name": "Alisha", "emal": "alishas@gmail.com", "gender": "female" }
+  { "name": "Rayyan", "email": "khan182007@gmail.com" },
+  { "name": "Rayyan", "email": "khan182007@gmail.com", "gender": "male" },
+  { "name": "Rayyan", "emal": "khan182007@gmail.com", "gender": "male" }
 ]
