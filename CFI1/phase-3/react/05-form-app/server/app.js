@@ -40,9 +40,9 @@ app.post('/contact', async (req,res)=>{
 
         // @MongoDB
 
-        const formData = new contactModel(req.body);
-        console.log(formData);
-        await formData.save();
+        // const formData = new contactModel(req.body);
+        // console.log(formData);
+        // await formData.save();
 
 
 
